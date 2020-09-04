@@ -50,6 +50,7 @@ class MainActivity : AppCompatActivity() {
                     }
                     ERROR -> {
                         Log.d(TAG, "setUpObservers: ${resource.message}")
+                        Toast.makeText(this, resource.message, Toast.LENGTH_LONG).show()
                     }
                     LOADING -> {
 //                        progressBar.visibility = View.VISIBLE
