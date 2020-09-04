@@ -52,6 +52,7 @@ class MainActivity : AppCompatActivity() {
                         Log.d(TAG, "setUpObservers: ${resource.message}")
                     }
                     LOADING -> {
+//                        progressBar.visibility = View.VISIBLE
                         Toast.makeText(this, "Loading......", Toast.LENGTH_LONG).show()
                     }
                 }
