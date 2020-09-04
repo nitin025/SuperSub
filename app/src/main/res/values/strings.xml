@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">SuperSub</string>
+    <string name="wagon_wheel">WAGON WHEEL</string>
+    <string name="infographics">INFOGRAPHICS</string>
+    <string name="equipments">Equipments</string>
+    <string name="repetitions">Repetitions</string>
+</resources>
